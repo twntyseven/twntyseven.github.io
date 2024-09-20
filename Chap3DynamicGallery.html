@@ -1,47 +1,53 @@
 <html>
-    <head>
-        <title>Dynamic Photos</title>
-    </head>
-    <body>
-        <style>p { font-family: Segoe UI ;}</style>
-        
+  <head>
+      <title>Dynamic Photos</title>\
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <style> p { font-family: Segoe UI ;} </style>
+    <h1>Welcome to my Dynamic Photo Gallery</h1>
+    <p>Scale the browser window to change the image</p>
+      
+    <hr class="rounded">
+      
+    <h3> Rock-Paper-Scissors</h3>
+    <picture>
+        <source media="(min-width:1000px)" srcset="images/rock.png">
+        <source media="(min-width:580px)" srcset="images/paper.png">
+        <img src="images/scissor.png" style="width:auto;">
+      </picture> 
+      <br/>
+      <br/>
+      <br/>
 
-        <h1>Welcome to my Dynamic Photo Gallery</h1>
-        <p>Scale the browser window to change the image</p>
-        
-        <hr class="rounded">
-        
-        <h3> Rock-Paper-Scissors</h3>
-        <picture>
-            <source media="(min-width:1000px)" srcset="images/rock.png">
-            <source media="(min-width:580px)" srcset="images/paper.png">
-            <img src="images/scissor.png" style="width:auto;">
-          </picture> 
-          <br/>
-          <br/>
-          <br/>
+      <hr class="rounded">
+      <h3>Top 3 Favorite Boardgames</h3>
+      <picture>
+        <source media="(min-width:1000px)" srcset="images/eclipse.jpg">
+        <source media="(min-width:580px)" srcset="images/memoir.jpg">
+        <img src="images/xwing.jpg" style="width:auto;">
+      </picture>
+      <br/>
+      <br/>
+      <br/>
 
-          <hr class="rounded">
-          <picture>
-          <h3> Sunrise to Sunset in Chernobyl</h3>
-          <source media="(min-width:1000px)" srcset="images/Sunrise.png">
-            <source media="(min-width:580px)" srcset="images/Fog.png">
-            <img src="images/Sunset.png" style="width:auto;">
-            </picture>
-            <br/>
-            <br/>
-            <br/>
+      <hr class="rounded">
+      <h3> Sunrise to Sunset in Chernobyl</h3>
+      <picture>
+        <source media="(min-width:1000px)" srcset="images/Sunrise.png">
+        <source media="(min-width:580px)" srcset="images/Fog.png">
+        <img src="images/Sunset.png" style="width:auto;">
+      </picture>
+      <br/>
+      <br/>
+      <br/>
 
-          <hr class="rounded">
-          <picture>
-            <h3>Top 3 Favorite Boardgames</h3>
-            <source media="(min-width:1000px)" srcset="images/eclipse.jpg">
-              <source media="(min-width:580px)" srcset="images/memoir.jpg">
-              <img src="images/xwing.jpg" style="width:auto;">
-              </picture>
-              <br/>
-              <br/>
-              <br/>
-    </body>
-    <footer></footer>
+      
+  </body>
+  <footer>
+
+    <a href="index.html" class="back-arrow round previous">&#8249;</a>
+    
+  </footer>
 </html>
