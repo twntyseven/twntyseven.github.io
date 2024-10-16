@@ -1,0 +1,28 @@
+.height img{
+    height: 300px;
+}
+
+body{
+    background-image: url(/images/space.jpg);text-align: center;
+}
+
+#wrapper{
+    width: 60%;
+    margin:auto ;
+    margin-top: 30px;
+}
+
+li{
+    list-style-image: url(/images/mung.png);
+    
+}
+
+.special-border{
+    border-image: auto;
+}
+
+.cool-border{
+    border: 5px solid transparent;
+    border-image: url(/images/border.jpg) 10 repeat;
+}
+
