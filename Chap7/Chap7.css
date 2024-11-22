@@ -1,0 +1,61 @@
+#bruh{
+    float: left;
+    background-color: rgb(235, 204, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+
+.headline{
+    li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #708566;
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: #a8d6a3;
+    }
+
+}
+
+#pos-abs{
+    position: absolute;
+    top:20px;
+    right:40px;
+    background-color: lightslategray;
+    border: solid;
+    width: 500px;
+    height: 500px;
+}
+
+#pos-rel{
+    position: relative;
+    left: 15px;
+    background-color: rgb(110, 167, 110);
+    border: solid;
+    width: 500px;
+    height: 500px;
+}
+
+#pos-fixed{
+    position: fixed;
+    background-color: lightslategrey;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.new-marker {
+    background-color: rgb(84, 102, 101);
+    list-style-image: url(/images/myimage.gif);
+}
