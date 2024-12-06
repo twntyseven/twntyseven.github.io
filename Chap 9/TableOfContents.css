@@ -1,0 +1,23 @@
+.table-of-contents{
+    background-color: #7a6c6c; /* Grey background color */
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    left: -7;
+    top: -4;
+}
+
+.table-of-contents a{
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 14px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    
+    
+    
+}
+
+.content{
+    margin-left: 195px;
+}
